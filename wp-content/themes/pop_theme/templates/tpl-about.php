@@ -1,0 +1,10 @@
+<?php  /* Template Name: Modèle page À propos*/ ?>
+
+<?php get_header()?>
+
+<div>
+    <h1><?php the_title() ?></h1>
+    <?php the_content() ?>
+</div>
+
+<?php get_footer()?>
