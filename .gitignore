@@ -1,0 +1,10 @@
+*.log
+wp-config.php
+wp-includes/
+wp-content/
+wp_admin/
+/.htaccess
+/license.txt
+/readme.html
+/sitemap.xml
+/sitemap.xml.gz
