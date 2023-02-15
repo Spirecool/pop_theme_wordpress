@@ -13,6 +13,8 @@
     
     <!-- Fonction WP qui lance tout le contenu de la balise <head> et lance le hook wp_enqueue_scripts -->
     <?php wp_head() ?>
+
+    
 </head>
 
 <body>

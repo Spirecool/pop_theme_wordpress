@@ -1,5 +1,12 @@
 
-<p>Custom Post Type: Article</p>
+<?php get_header(); ?>
 
+<div class="container"></div>
+    <div>
+        <h1><?php the_title() ?></h1>
+        <?php the_content() ?>
+        <p>Custom Post Type: Article</p>
+    </div>
+</div>
 
-<h1> <?php the_title(); ?> </h1>
+<?php get_footer(); ?>

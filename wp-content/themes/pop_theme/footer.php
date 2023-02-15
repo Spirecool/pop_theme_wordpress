@@ -12,22 +12,21 @@
     <!-- Liens des réseaux sociaux (id = id de la page d'options, cad Informations générales) -->
     <div class="col mb-3">
 		<h5>Réseaux sociaux</h5>
-		<!-- <ul class="nav flex-column">
-			<?php $idOptionsPages = 103; ?>
-			<li class="nav-item mb-2"><a href="<?php the_field('facebook', $idOptionsPages) ?>">Facebook</a></li>
-			<li class="nav-item mb-2"><a href="<?php the_field('twitter', $idOptionsPages) ?>">Twitter</a></li>
-			<li class="nav-item mb-2"><a href="<?php the_field('instagram', $idOptionsPages) ?>">Instagram</a></li>
-		</ul> -->
+
+		<?php $idOptionsPage = 76; ?>
+
+		<ul class="nav flex-column">
+			<li class="nav-item mb-2 tutu"><a href="<?php the_field('facebook', $idOptionsPage) ?>">Facebook</a></li>
+			<li class="nav-item mb-2"><a href="<?php the_field('twitter', $idOptionsPage) ?>">Twitter</a></li>
+			<li class="nav-item mb-2"><a href="<?php the_field('instagram', $idOptionsPage) ?>">Instagram</a></li>
+		</ul>
     </div>
 
     <div class="col mb-3">
-		<h5>Section</h5>
+		<h5>Coordonnées</h5>
 		<ul class="nav flex-column">
-			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+			<li class="nav-item mb-2"> E-mail :  <?php echo the_field('email', $idOptionsPage) ?> </li>
+			<li class="nav-item mb-2"> Téléphone : <?php echo the_field('phone', $idOptionsPage) ?> </li>
 		</ul>
     </div>
 
